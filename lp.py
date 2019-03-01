@@ -282,7 +282,7 @@ class Parser:
                 if not os.path.exists(filepath):
                     os.mkdir(filepath)
                 filename = os.path.join(filepath, \
-                    '{}_{}.json'.format(result['institute'], result['group']))
+                    '{}_{}.json'.format(result['faculty'], result['group']))
                 write_result(filename, result)
         else:
             write_result(filepath, results)
