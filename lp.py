@@ -120,7 +120,9 @@ def extract_lesson_times(timetable):
     times = set()
     for lesson in timetable:
         times.add(lesson['lesson_time'])
-    return list(times).sort()
+    times = list(times)
+    times.sort()
+    return times
 
 
 # Transformers
