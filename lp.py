@@ -257,7 +257,10 @@ class Parser:
     def get_parser(self, group_list):
         for group in group_list:
             timetable = self.get_timetable(group['institute'], group['group'])
-            result = dict(group)
+            result = {
+                'faculty': group['institute'],
+                'group': group['group'],
+            }
             result.update(timetable)
             yield result
 
