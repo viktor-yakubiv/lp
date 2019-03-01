@@ -1,4 +1,4 @@
-# LP Pasrser
+# LP Parser
 
 Parses Lviv Polytechnic National University's timetables from
 http://www.lp.edu.ua/students_schedule
