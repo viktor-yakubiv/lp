@@ -1,2 +1,5 @@
 # Virtual environment
 .env
+
+# Ignore data directory
+data
